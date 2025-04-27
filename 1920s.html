@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>1920s</title>
+		<link rel="stylesheet" href="./styles/1920s.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<script defer src="./1920s.js"></script>
+	</head>
+	<body>
+		<!-- CRT overlay with class to adjust its z-index -->
+		<div class="overlay" aria-hidden="true"></div>
+
+		<!--Wrapper -> container class allows for interactivity under the overlay-->
+		<div class="container">
+			<!--dynamic-heading id allows for the title to be changed dynamically with js-->
+			<h1 id="dynamic-heading">Welcome to the 1920s!</h1>
+
+			<!--Wrapper for the content-->
+			<div class="content-wrapper">
+				<!-- Left navigation panel/menu -->
+				<div class="nav-panel pixel-box">
+					<ul class="nav-menu">
+						<li>
+							<!-- Btns with aria-label and active class for accessibility -->
+							<button
+								class="nav-button active"
+								data-section="overview"
+								aria-label="Navigate to the 1920s fashion overview"
+							>
+								OVERVIEW
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="trends"
+								aria-label="Navigate to 1920s fashion trends"
+							>
+								TRENDS
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="accessories"
+								aria-label="Navigate to 1920s accessories"
+							>
+								ACCESSORIES
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="hair"
+								aria-label="Navigate to 1920s hairstyles"
+							>
+								HAIR
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="makeup"
+								aria-label="Navigate to 1920s makeup"
+							>
+								MAKEUP
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="designers"
+								aria-label="Navigate to 1920s designers"
+							>
+								DESIGNERS
+							</button>
+						</li>
+						<li>
+							<button
+								class="nav-button"
+								data-section="icons"
+								aria-label="Navigate to 1920s fashion icons"
+							>
+								ICONS
+							</button>
+						</li>
+					</ul>
+					<!-- Exit btn with aria-label for accessibility -->
+					<button
+						class="nav-button"
+						onclick="location.href='index.html'"
+						aria-label="Exit to the main menu"
+					>
+						EXIT
+					</button>
+				</div>
+
+				<!-- Right content panel -->
+				<div class="main-content">
+					<!-- Decorative boxes, styled with css -->
+					<div id="top-box" class="pixel-box" aria-hidden="true"></div>
+					<div id="bottom-box" class="pixel-box" aria-hidden="true"></div>
+					<!-- Scrollable content box, initially hidden -->
+					<div
+						id="scroll-box"
+						class="pixel-box"
+						style="display: none"
+						aria-hidden="true"
+					></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
