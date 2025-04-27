@@ -1,0 +1,202 @@
+/* General body styling */
+body {
+	background-color: #172325;
+	font-family: 'Press Start 2P', sans-serif;
+	color: #fefefe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* CRT overlay for the retro game effect */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../assets/Perfect_CRT-noframe.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: inset 0 0 20px #000000;
+	pointer-events: none; /* allow interaction through overlay */
+	z-index: 9999; /* overlay on top of everything */
+}
+
+/* Main container for content */
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 80%;
+	padding: 1rem;
+	gap: 2rem;
+	z-index: 1;
+}
+
+/* Heading for dynamic h1 section*/
+#dynamic-heading {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 2rem;
+	color: #e8b75c;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+/* Content wrapper to hold nav and main content */
+.content-wrapper {
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	gap: 3rem;
+}
+
+/* Style for content sections */
+.pixel-box {
+	background: #171717;
+	border: 6px solid #e8b75c;
+	padding: 1.5rem;
+}
+
+/* Nav panel styling */
+.nav-panel {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Nav menu list styling */
+.nav-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* List item styling for nav */
+.nav-menu li {
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+/* Styling for nav btns */
+button.nav-button {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1rem;
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	padding: 0;
+	margin: 10px 0;
+}
+
+/* Active state for nav btns */
+.nav-button.active {
+	color: #e8b75c;
+	text-decoration: underline;
+}
+
+/* Hover effect for btns */
+.nav-button:hover {
+	color: #e8b75c;
+}
+
+/* Focus effect for btns */
+.nav-button:focus {
+	outline: 2px dashed #e8b75c;
+	outline-offset: 4px;
+}
+
+/* Main content area styling */
+.main-content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	max-height: 600px;
+	overflow: hidden;
+}
+
+/* Scrollable content area */
+#scroll-box {
+	overflow-y: auto; /* enable vertical scrolling */
+	max-height: 500px; /* limit the height */
+}
+
+/* Inner content box styling */
+.inner-box {
+	background-color: #171717;
+}
+
+/* Title styling for pixelated text */
+.pixel-title {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1.2rem;
+	color: #e8b75c;
+	text-align: center;
+	margin: 0;
+	line-height: 1.5;
+}
+
+/* Subheading styling for pixelated sections */
+.pixel-subheading {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+/* Paragraph styling for content text */
+.pixel-paragraph {
+	font-family: 'Pixelify Sans', sans-serif;
+	font-size: 1.3rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+/* Image styling */
+.pixel-image {
+	display: block;
+	max-width: 90%;
+	margin: 10px auto;
+	border: 4px solid #e8b75c;
+}
+
+/* Colour grid for displaying color swatches */
+.colour-grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+/* Individual colour swatch styling */
+.colour-swatch {
+	width: 15vw;
+	height: 9vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 0.7em;
+	color: #ffffff;
+}
+
+/* Grouping of colour swatches */
+.colour-group {
+	display: flex;
+	justify-content: center;
+}
+
+/* Focused btn and nav list item styling */
+button:focus,
+.nav-menu li:focus {
+	outline: 2px dashed #e8b75c;
+	outline-offset: 4px;
+}
