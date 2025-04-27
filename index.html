@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/globalstyles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+		<script defer type="module" src="./script.js"></script>
+		<title>FASHION TIME MACHINE</title>
+	</head>
+	<body>
+		<!--CRT overlay with class to adjust its z-index-->
+		<div class="overlay" aria-hidden="true"></div>
+
+		<!--Wrapper -> content class allows for interactivity under the overlay-->
+		<div class="content">
+			<!--Home screen-->
+			<section id="home" class="screen">
+				<h1 class="gradient">FASHION TIME MACHINE</h1>
+				<h2 class="start-page-h2">Press button to start</h2>
+				<button class="start-button" aria-label="Start the Fashion Time Machine">
+					START
+				</button>
+			</section>
+
+			<!--Year selection screen with hidden class to show/hide content using js-->
+			<section id="year-select" class="screen hidden">
+				<h2 class="gradient select-yr-h2">SELECT YEAR</h2>
+				<!--Wrapper for the years-->
+				<div class="year-buttons">
+					<!--Separate containers for years to organise them side by side in sets of 3-->
+					<div class="yb-container-1">
+						<!--Adding custom attributes to all buttons for easier use in js, as well as aria labels for screen readers-->
+						<button
+							data-year="1920"
+							class="year"
+							aria-label="Select 1920s fashion overview"
+						>
+							<!--Triangle on selections to simulate select player menu from retro games-->
+							<span class="triangle"></span>
+							<span class="year-text">1920</span>
+						</button>
+						<button
+							data-year="1960"
+							class="year"
+							aria-label="Select 1960s fashion overview"
+						>
+							<span class="triangle"></span>
+							<span class="year-text">1960</span>
+						</button>
+						<button
+							data-year="1970"
+							class="year"
+							aria-label="Select 1970s fashion overview"
+						>
+							<span class="triangle"></span>
+							<span class="year-text">1970</span>
+						</button>
+					</div>
+					<div class="yb-container-2">
+						<button
+							data-year="1980"
+							class="year"
+							aria-label="Select 1980s fashion overview"
+						>
+							<span class="triangle"></span>
+							<span class="year-text">1980</span>
+						</button>
+						<button
+							data-year="1990"
+							class="year"
+							aria-label="Select 1990s fashion overview"
+						>
+							<span class="triangle"></span>
+							<span class="year-text">1990</span>
+						</button>
+						<button
+							data-year="2000"
+							class="year"
+							aria-label="Select 2000s fashion overview"
+						>
+							<span class="triangle"></span>
+							<span class="year-text">2000</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<!--Warning popup with role and arias for screen readers, keyboard focusable-->
+			<div
+				id="warning-popup"
+				class="popup hidden"
+				role="alertdialog"
+				aria-labelledby="warning-heading"
+				aria-describedby="warning-text"
+			>
+				<h2 id="warning-heading" class="warning">PHOTOSENSITIVITY WARNING</h2>
+				<p id="warning-text">
+					This video may potentially trigger seizures for people with photosensitive
+					epilepsy. Viewer discretion is advised.
+				</p>
+				<button id="view-vortex" aria-label="Proceed to vortex animation">
+					PROCEED
+				</button>
+				<button id="skip-vortex" aria-label="Skip vortex animation">SKIP</button>
+			</div>
+
+			<!--Coming soon popup with role and arias for screen readers, keyboard focusable-->
+			<div
+				id="coming-soon-popup"
+				class="popup hidden"
+				role="alertdialog"
+				aria-labelledby="coming-soon-heading"
+				aria-describedby="coming-soon-text"
+			>
+				<h2 id="coming-soon-heading" class="coming-soon">COMING SOON!</h2>
+				<p id="coming-soon-text">More designs will be added in the future.</p>
+				<button id="back-to-years" aria-label="Back to year selection">
+					BACK TO YEAR SELECTION
+				</button>
+			</div>
+
+			<!--Vortex video-->
+			<section id="vortex" class="screen hidden">
+				<!--Vortex animation with aria-hidden set to true since it's decorative, added fallback text if video is not supported by browser-->
+				<video id="vortex-video" src="./assets/vortex.mp4" muted aria-hidden="true">
+					Your browser does not support the video tag.
+				</video>
+			</section>
+		</div>
+	</body>
+</html>
