@@ -1,0 +1,221 @@
+{
+	"1920s": {
+		"overview": {
+			"fonts": "Park Lane NF | Quincento | Coventry Garden | Art Decory | Grenadier NF | Selznick Normal NF | Astrud | Engebrechtre | Night at the Opera NF | Decomang Hold | Stony Island NF | Dechora Zone",
+			"colours": [
+				{ "hex": "#000000" },
+				{ "hex": "#ad3235" },
+				{ "hex": "#e5b4a6" },
+				{ "hex": "#b08f42" },
+				{ "hex": "#007b76" },
+				{ "hex": "#4ea183" }
+			]
+		},
+		"trends": {
+			"title": "FASHION TRENDS IN THE 1920s",
+			"content": [
+				{
+					"type": "image",
+					"src": "assets/trends1.jpg",
+					"alt": "Main fashion trends image"
+				},
+				{
+					"type": "text",
+					"text": "1920s fashion history is a period marked by significant social and cultural shifts. As women gained independence during World War I, they began to redefine their roles and, consequently, their fashion sense."
+				},
+				{
+					"type": "subheading",
+					"text": "The New Woman"
+				},
+				{
+					"type": "text",
+					"text": "1920s fashion introduced the “new woman,” a youthful, liberated figure who broke away from traditional Victorian-era aesthetics with her modern dress and demeanor. Initially shocking the older generations, she eventually gained acceptance as the decade progressed."
+				},
+				{
+					"type": "image",
+					"src": "assets/trends2.jpg",
+					"alt": "New Woman image"
+				},
+				{
+					"type": "subheading",
+					"text": "The Flapper Dress"
+				},
+				{
+					"type": "text",
+					"text": "The flapper dress, an iconic symbol of 1920s fashion, epitomized the era's spirit of liberation and rebellion. Characterized by its loose, straight silhouette and dropped waist, the dress often featured a hemline at the knee—considered scandalously short at the time."
+				},
+				{
+					"type": "image",
+					"src": "assets/trends3.jpg",
+					"alt": "Flapper dress photo"
+				},
+				{
+					"type": "text",
+					"text": "These dresses were typically sleeveless or had short sleeves, allowing greater freedom of movement. Made from luxurious fabrics like silk, satin, and velvet, they were adorned with sequins, beads, fringe, and embroidery, reflecting the Art Deco influence."
+				},
+				{
+					"type": "image",
+					"src": "assets/trends4.jpg",
+					"alt": "Flapper girl photo"
+				},
+				{
+					"type": "text",
+					"text": "Flapper girls, embodying a new cultural shift, accessorized with long pearl necklaces, feathered headbands, and cloche hats. Their signature bob hairstyles, darkly lined eyes, and deep red lips emphasized their modern and carefree attitude."
+				}
+			]
+		},
+		"accessories": {
+			"title": "1920s ACCESSORIES ",
+			"content": [
+				{
+					"type": "subheading",
+					"text": "Headwear"
+				},
+				{
+					"type": "text",
+					"text": "In the 1920s, hats and headwear were essential fashion accessories, with most women never leaving home without a stylish cap. This trend was driven by the beauty standards of the time, which emphasized pale skin and short hairstyles."
+				},
+				{
+					"type": "image",
+					"src": "assets/acc1.jpg",
+					"alt": "Women wearing headwear"
+				},
+
+				{
+					"type": "text",
+					"text": "Cloche hats, bell-shaped and typically made of felt with a slim rim, became particularly fashionable. These hats often featured ribbons, which women used to indicate their romantic status."
+				},
+				{
+					"type": "image",
+					"src": "assets/acc2.jpg",
+					"alt": "Woman wearing cloche hat"
+				},
+				{
+					"type": "text",
+					"text": "Headbands, or bandeaus, were also trendy during the peak of the Jazz Age. These accessories, often adorned with precious gems, metals, or feathers, perfectly complemented the flapper look."
+				},
+				{
+					"type": "image",
+					"src": "assets/acc3.jpg",
+					"alt": "Woman wearing a wrap-style headband"
+				},
+				{
+					"type": "text",
+					"text": "The wrap-style headband was incredibly trendy, featuring a single strand embellished with flowers, pearls, or other ornaments."
+				},
+				{
+					"type": "subheading",
+					"text": "Jewellery"
+				},
+				{
+					"type": "text",
+					"text": "Jewelry in the 1920s became an essential fashion accessory, allowing women to express their individuality more freely. The Art Deco movement significantly influenced jewelry design, characterized by rich colors and geometric shapes."
+				},
+				{
+					"type": "image",
+					"src": "assets/acc4.jpg",
+					"alt": "Woman wearing a accessories"
+				},
+				{
+					"type": "text",
+					"text": "This era also saw a growing interest in “exotic” jewelry, featuring intricate designs crafted from materials like jade and turquoise, reflecting the expanding global awareness and fascination with different cultures."
+				},
+				{
+					"type": "image",
+					"src": "assets/acc5.jpg",
+					"alt": "Woman wearing a earrings"
+				},
+				{
+					"type": "text",
+					"text": "As jewelry material costs dropped, costume jewelry's popularity soared. Coco Chanel, founder of Chanel, drove this trend by promoting stylish, affordable pieces. By using colored glass and gold-tone metal instead of precious materials, designers made bracelets, earrings, and necklaces more accessible. Pearl strand necklaces, similar to those worn by the renowned dancer Josephine Baker, also gained popularity. These pieces added a touch of elegance and sophistication to the flapper's wardrobe, cementing jewelry as an essential element of 1920s fashion."
+				}
+			]
+		},
+		"hair": {
+			"title": "POPULAR HAIRSTYLES",
+			"content": [
+				{
+					"type": "text",
+					"text": "The 1920s hairstyles marked a bold departure from the modesty of previous decades, with women embracing the bob cut as a symbol of liberation and modernity. The bob cut, popularized by actresses like Louise Brooks, could be worn straight for a sleek, sophisticated look."
+				},
+				{
+					"type": "image",
+					"src": "assets/hs1.jpg",
+					"alt": "Woman with straight bob"
+				},
+				{
+					"type": "text",
+					"text": "Additionally, many women styled their bobs with Marcel or finger waves, adding texture and elegance to the short hairdo. These waves created a soft, wavy pattern that became a hallmark of 1920s fashion."
+				},
+				{
+					"type": "image",
+					"src": "assets/hs2.jpg",
+					"alt": "Woman with wavy bob"
+				}
+			]
+		},
+		"makeup": {
+			"title": "1920s MAKEUP",
+			"content": [
+				{
+					"type": "text",
+					"text": "1920s makeup became a powerful self-expression tool, reflecting the decade's bold and liberated spirit. Women embraced dramatic looks with heavily lined eyes, dark mascara, and smoky eyeshadows, creating a striking contrast that defined the era's aesthetic."
+				},
+				{
+					"type": "image",
+					"src": "assets/mk1.jpg",
+					"alt": "Woman wearing decade makeup"
+				},
+				{
+					"type": "text",
+					"text": "Eyebrows were meticulously plucked thin and penciled in, resulting in a dramatic arch that framed the face. Lips were a focal point of 1920s makeup, often accentuated with deep reds and plums."
+				},
+				{
+					"type": "image",
+					"src": "assets/mk2.jpg",
+					"alt": "Woman with thin eyebrows"
+				},
+				{
+					"type": "text",
+					"text": "Women frequently overdrawn their lips to achieve the iconic Cupid's bow shape, popularized by actresses like Clara Bow. This bold lip look became synonymous with the flapper style, symbolizing a break from past norms and the dawn of modern, daring beauty trends."
+				}
+			]
+		},
+		"designers": {
+			"title": "POPULAR DESIGNERS OF THE 20s",
+			"content": [
+				{
+					"type": "text",
+					"text": "GABRIELLE CHANEL | ELSA SCHIAPARELLI | JEANNE LANVIN | CALLOT SOEURS | JEAN PATOU | MADELEINE VIONNET | MADAME CHERUIT | PAUL POIRET | NORMAN HARTNELL | SONIA DELAUNAY | JANE REGNY | JEANNE PAQUIN | PREMET"
+				}
+			]
+		},
+		"icons": {
+			"title": "THE 20's ICON",
+			"content": [
+				{
+					"type": "subheading",
+					"text": "Coco Chanel"
+				},
+				{
+					"type": "image",
+					"src": "assets/cc1.jpg",
+					"alt": "Coco Chanel"
+				},
+				{
+					"type": "text",
+					"text": "Coco Chanel was a revolutionary force in 1920s fashion, fundamentally transforming women's clothing with innovative designs. She introduced the iconic little black dress, a timeless staple epitomizing simplicity and elegance."
+				},
+				{
+					"type": "image",
+					"src": "assets/cc2.jpg",
+					"alt": "Coco Chanel"
+				},
+				{
+					"type": "text",
+					"text": "Chanel's designs revolutionized women's fashion with clean lines and practicality, rejecting the previous restrictive styles. She innovatively used jersey fabric, previously reserved for men's underwear, to create comfortable, stylish garments that redefined everyday wear. This pioneering spirit extended beyond clothing, as the launch of Chanel No. 5 perfume set a new standard in the fragrance world, solidifying her legacy as a multifaceted designer."
+				}
+			]
+		}
+	}
+}
