@@ -1,0 +1,265 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: #262328;
+}
+
+/* Typography */
+h1,
+h2 {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-family: 'Pixelify Sans', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.select-yr-h2 {
+	font-size: 2rem;
+}
+
+.start-page-h2 {
+	margin-top: 14rem;
+	margin-bottom: 8rem;
+}
+
+/* Buttons */
+button {
+	text-align: center;
+	cursor: pointer;
+}
+
+.start-button {
+	font-size: 1.5rem;
+	font-family: 'Press Start 2P', sans-serif;
+	color: #ffffff;
+	background-color: #813aec;
+	display: block;
+	border: 8px solid #ffffff;
+	padding: 4rem 1.2rem;
+	border-radius: 50%;
+	box-shadow: inset -5px -8px 0 rgb(0, 0, 0, 25%);
+	margin: auto;
+}
+
+.start-button:hover {
+	background-color: #652eb8;
+	box-shadow: inset 5px 8px 0 rgb(0, 0, 0, 25%);
+}
+
+.start-button:focus {
+	outline: 2px dashed #ffffff;
+	outline-offset: 4px;
+}
+
+.year-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5rem;
+	margin-top: 5rem;
+}
+
+button.year {
+	display: flex;
+	align-items: center;
+	background: none;
+	border: none;
+	color: white;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1.25rem;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #000;
+	padding: 0.5rem 1rem;
+	position: relative;
+}
+
+button.year:focus {
+	outline: 2px dashed #ffffff;
+	outline-offset: 4px;
+}
+button.year:focus .triangle {
+	opacity: 1;
+}
+
+button.year .triangle {
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 10px solid #ffffff;
+	margin-right: 1rem;
+	opacity: 0;
+}
+
+button.year .year-text {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 1.25rem;
+	color: white;
+	-webkit-text-fill-color: white;
+	text-shadow: 1px 1px 2px #000;
+}
+
+button.year:hover .year-text {
+	background: linear-gradient(to top, #813aec, #e5d2ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: none;
+}
+
+button.year:focus .year-text {
+	background: linear-gradient(to top, #813aec, #e5d2ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: none;
+}
+
+button.year:hover .triangle {
+	opacity: 1;
+}
+
+button#view-vortex,
+button#skip-vortex,
+button#back-to-years {
+	margin: 2rem;
+	font-family: 'Press Start 2P', sans-serif;
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	text-align: left;
+	padding: 0;
+	margin: 2rem 3rem;
+	outline: 2px solid #8f726f;
+	outline-offset: 4px;
+}
+
+button#view-vortex:hover {
+	color: #ff474a;
+}
+
+button#skip-vortex:hover,
+button#back-to-years:hover {
+	color: rgb(60, 209, 60);
+}
+
+button#view-vortex:focus,
+button#skip-vortex:focus,
+button#back-to-years:focus {
+	outline: 2px dashed #ffffff;
+	outline-offset: 4px;
+}
+
+/* Hidden class with added !important rule for safety measures*/
+.hidden {
+	display: none !important; /* override conflicting rules*/
+}
+
+/* Overlay, layout and containers */
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../assets/Perfect_CRT-noframe.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	pointer-events: none;
+	box-shadow: inset 0 0 20px #000000;
+	z-index: 9999;
+}
+
+.content {
+	padding: 2rem;
+	position: relative;
+	z-index: 1;
+}
+
+.yb-container-1,
+.yb-container-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+/* Popup Section */
+.popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #171717;
+	padding: 2rem;
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	z-index: 10000;
+}
+
+/* Gradient and text effects */
+.gradient {
+	background: linear-gradient(to top, #813aec, #e5d2ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 5rem;
+}
+
+.warning {
+	background: linear-gradient(to top, #ff474a, #ffd2d2);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 1rem;
+	line-height: 1.6;
+}
+
+.coming-soon {
+	background: linear-gradient(to top, #813aec, #e5d2ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 1rem;
+	line-height: 1.6;
+}
+
+/* Vortex section */
+#vortex {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10000;
+}
+
+#vortex-video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
